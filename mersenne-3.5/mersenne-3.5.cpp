@@ -38,7 +38,7 @@ struct bs {//큰 수 구조체
 			int j;
 			for (j = 7; j >= 0; j--)
 			{
-				int v = i * 7 + j;
+				int v = i * 8 + j;
 				if (v < n)
 					goto T;
 				if (getnb(v))
